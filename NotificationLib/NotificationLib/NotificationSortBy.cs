@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace NotificationLib;
 
-namespace NotificationLib
-{
-    internal class NotificationSortBy
-    {
-    }
-}
+public enum NotificationSortBy
+{ Date, Priority, Title }

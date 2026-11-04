@@ -1,10 +1,3 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace NotificationLib;
 
-namespace NotificationLib
-{
-    internal class NotificationType
-    {
-    }
-}
+public enum NotificationType { Info, Warning, Error, System}
